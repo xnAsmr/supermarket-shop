@@ -1,0 +1,33 @@
+# 依赖（体积最大，必须排除）
+node_modules/
+.pnpm-store/
+
+# 构建产物（可由源码重新生成）
+dist/
+dist-*/
+build/
+backend/target/
+
+# 日志与临时文件
+*.log
+*.tmp
+*.bak
+backend/tmp/
+
+# 前端原有的 Gitee 上游仓库元数据（重命名保留，非项目源码）
+frontend/.git.upstream-backup/
+
+# IDE / 工具数据
+.workbuddy/
+.idea/
+.vscode/
+*.iml
+.DS_Store
+Thumbs.db
+
+# 运行时上传数据（非源码）
+upload/
+
+# 本地环境覆盖（团队共享的 .env / .env.development / .env.production 仍纳入版本控制）
+.env.local
+.env.*.local

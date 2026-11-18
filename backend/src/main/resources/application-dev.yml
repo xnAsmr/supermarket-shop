@@ -1,0 +1,11 @@
+spring:
+  datasource:
+    driver-class-name: com.mysql.cj.jdbc.Driver
+    url: jdbc:mysql://localhost:3306/supermarket_erp?useUnicode=true&characterEncoding=utf-8&serverTimezone=Asia/Shanghai
+    username: root
+    password: 123456
+
+# JWT 配置
+jwt:
+  secret: Y2xvdWQtZXJwLXN1cGVybWFya2V0LWVycC1zZWNyZXQta2V5LTIwMjY=
+  expiration: 86400000

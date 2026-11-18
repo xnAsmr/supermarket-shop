@@ -1,0 +1,15 @@
+{
+  "name": "supermarket-erp-docs",
+  "version": "1.0.0",
+  "private": true,
+  "type": "module",
+  "description": "连锁超市 ERP 知识库：使用教程、更新日志、常见问题",
+  "scripts": {
+    "docs:dev": "vitepress dev",
+    "docs:build": "vitepress build",
+    "docs:preview": "vitepress preview"
+  },
+  "devDependencies": {
+    "vitepress": "^1.6.3"
+  }
+}
